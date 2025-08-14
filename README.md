@@ -1,8 +1,7 @@
 # Cryptogram - Word Puzzle Game 
 
 <div align="center">
-<img width="250" height="250" alt="icon" src="https://github.com/user-attachments/assets/b7e9b441-caf8-48af-9062-d55d75a5cfa1" />
-
+<img width="250" height="250" alt="icon" src="https://github.com/user-attachments/assets/245823d8-1d27-4bff-97e3-9ca0e8ce7c44" />
 
 **A challenging word puzzle game built with Jetpack Compose**
 
