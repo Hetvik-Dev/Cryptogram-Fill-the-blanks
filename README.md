@@ -1,14 +1,17 @@
-# Cryptogram - Fill the blanks (Word Puzzle Game)
+## Cryptogram: Fill the blanks (Word Puzzle Game)
 
 <div align="center">
-<img width="250" height="250" alt="icon" src="https://github.com/user-attachments/assets/245823d8-1d27-4bff-97e3-9ca0e8ce7c44" />
+<img width="250" height="250" alt="icon" src="https://github.com/user-attachments/assets/45f94140-1e3b-4c0d-bf18-cedb228af885" />
 
 **A challenging word puzzle game built with Jetpack Compose**
 
-[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.cryptogram.filltheblanks) 
 [![Android](https://img.shields.io/badge/Android-API%2027+-green.svg)](https://developer.android.com/about/versions/android-14.0)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-blue.svg)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-1.5+-orange.svg)](https://developer.android.com/jetpack/compose)
+
+<a href="https://play.google.com/store/apps/details?id=com.cryptogram.filltheblanks">
+  <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200px">
+</a>
 
 </div>
 
@@ -52,7 +55,7 @@ Cryptogram is an engaging word puzzle game where players solve famous quotes by 
 
 <div align="center">
 
-### Some Glimps of First verison!
+### Glimps of First verison!
 
 ![cryptogramSS](https://github.com/user-attachments/assets/641f894a-275b-4df1-a1e0-15b8a5bebedc)
 
