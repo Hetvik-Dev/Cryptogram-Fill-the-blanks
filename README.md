@@ -1,10 +1,11 @@
-# Cryptogram - Word Puzzle Game 
+# Cryptogram - Fill the blanks (Word Puzzle Game)
 
 <div align="center">
 <img width="250" height="250" alt="icon" src="https://github.com/user-attachments/assets/245823d8-1d27-4bff-97e3-9ca0e8ce7c44" />
 
 **A challenging word puzzle game built with Jetpack Compose**
 
+[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=com.cryptogram.filltheblanks) 
 [![Android](https://img.shields.io/badge/Android-API%2027+-green.svg)](https://developer.android.com/about/versions/android-14.0)
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9+-blue.svg)](https://kotlinlang.org/)
 [![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-1.5+-orange.svg)](https://developer.android.com/jetpack/compose)
@@ -83,24 +84,30 @@ Cryptogram is an engaging word puzzle game where players solve famous quotes by 
 
 ```
 app/src/main/java/com/cryptogram/filltheblanks/
-├── Activity/           # Main activity
-├── background/         # Animated backgrounds
-├── composables/        # Reusable UI components
-├── customKeyboard/     # Custom keyboard implementation
-├── domain/            # Business logic and entities
-├── model/             # Data models and utilities
-├── navigation/        # Screen navigation
-├── theme/             # Theme management
-├── ui/                # UI theme definitions
-├── utils/             # Utility classes
-└── viewModel/         # ViewModels and state management
+│
+├── data/
+│   └── repository/         // Handles data operations (e.g., QuoteRepository)
+│
+├── domain/
+│   └── entity/             // Core data models (e.g., Quote, GameState)
+│
+├── ui/
+│   ├── composables/        // Reusable UI components (e.g., CustomKeyboard, Dialogs)
+│   ├── navigation/         // Screen definitions (e.g., HomeScreen, GameScreen)
+│   ├── theme/              // App theme, colors, and typography
+│   └── viewmodel/          // ViewModels for each screen (e.g., GameViewModel)
+│
+├── utils/
+│   └── ...                 // Helper classes for ads, audio, analytics, etc.
+│
+└── MainActivity.kt         // Main entry point
 ```
 
 ### 🔒 Private Repository
 
 > ⚠️ **Note:** The full source code for this project is in a **private repository**. This public README is made available for portfolio and reference purposes.  
 >  
-> If you're a potential employer or collaborator and would like access to the codebase, feel free to reach out.
+> If you're a potential employer or buyer and would like access to the codebase, feel free to reach out.
 
 
 
@@ -118,6 +125,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Made with ❤️ using Jetpack Compose**
 
-[Download on Google Play](https://play.google.com/store/apps/details?id=com.cryptogram.filltheblanks) | [Privacy Policy](PRIVACY.md) | [Terms of Service](TERMS.md)
+[Download on Google Play](https://play.google.com/store/apps/details?id=com.cryptogram.filltheblanks) | [Privacy Policy and Terms of Service](https://cryptogr.netlify.app/)
 
 </div>
